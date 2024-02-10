@@ -23,8 +23,7 @@ public class _04_TabMenuSteps extends BaseDriver {
 
     @Then("I should see the following submenus:")
     public void iShouldSeeTheFollowingSubmenus() {
-
-
+        
 
         Assert.assertTrue(driver.getCurrentUrl().contains("/desktops"));
     }
@@ -40,7 +39,7 @@ public class _04_TabMenuSteps extends BaseDriver {
     }
 
     @When("I Click on {string} menu")
-    public void iClickOnMenu(String arg0) {
+    public void iClickOnMenu(String apparel) {
     }
 
     @Then("I should be on The Digital Downloads page")

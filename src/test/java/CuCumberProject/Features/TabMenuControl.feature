@@ -32,3 +32,6 @@ Feature: AS a user I want to Verify the tab menu functionality on nopCommerce.co
    When I Click on "Jewellery" word
    Then I should  be on The Jewellery page
 
+
+   When I am done I shuld be on home page
+
